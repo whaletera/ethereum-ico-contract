@@ -1787,8 +1787,8 @@ em {
 
 .team__grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
 }
 
 .person-wrap {
@@ -1815,7 +1815,7 @@ em {
 
 .person__photo {
   position: relative;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 11;
   overflow: hidden;
   background: var(--bg-soft);
 }
@@ -1854,12 +1854,12 @@ em {
 }
 
 .person__body {
-  padding: 20px 24px 26px;
+  padding: 18px 20px 22px;
 }
 
 .person__name {
   font-family: var(--display);
-  font-size: 1.15rem;
+  font-size: 1.06rem;
   font-weight: 550;
   letter-spacing: -0.025em;
 }
@@ -1872,9 +1872,9 @@ em {
 }
 
 .person__bio {
-  margin-top: 12px;
-  font-size: 0.9rem;
-  line-height: 1.62;
+  margin-top: 10px;
+  font-size: 0.86rem;
+  line-height: 1.6;
   color: var(--muted);
 }
 
@@ -2245,6 +2245,10 @@ em {
   }
 
   .services__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .team__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
